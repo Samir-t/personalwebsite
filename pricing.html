@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pricing.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <h2>Pet care</h2>
+            <ul>
+                <li><a href="index.html" target="_blank" class="one">Home</a></li>
+                <li><a href="aboutus.html" target="_blank">About us</a></li>
+                <li><a href="service.html" target="_blank">Services</a></li>
+                <li><a href="adminpannel.html" target="_blank">Admin Panel</a></li>
+                <li><a href="pricing.html" target="_blank" class="five">Pricing</a></li>
+            </ul>
+            <button class="btn"><ion-icon name="call-outline"></ion-icon>98123456789</button>
+
+        </div>
+        <div class="content">
+            <div class="pricing-section">
+                <h2>Pricing</h2>
+                <div class="pricing-table">
+                  <div class="pricing-item">
+                    <img src="img1.jpg" alt="Dog Food 1">
+                    <h3>Dog Food 1</h3>
+                    <p>$10</p>
+                    <button onclick="getUserInput()">Buy</button>
+                  </div>
+                  <div class="pricing-item">
+                    <img src="img2.jpg" alt="Dog Food 2">
+                    <h3>Dog Food 2</h3>
+                    <p>$12</p>
+                    <button onclick="getUserInput()">Buy</button>
+                  </div>
+                  <div class="pricing-item">
+                    <img src="img3.jpg" alt="Dog Food 3">
+                    <h3>Dog Food 3</h3>
+                    <p>$15</p>
+                    <button onclick="getUserInput()">Buy</button>
+                  </div>
+                  <div class="pricing-item">
+                    <img src="img4.jpg" alt="Cat Food 1">
+                    <h3>Cat Food 1</h3>
+                    <p>$8</p>
+                    <button onclick="getUserInput()">Buy</button>
+                  </div>
+                  <div class="pricing-item">
+                    <img src="img5.jpg" alt="Cat Food 2">
+                    <h3>Cat Food 2</h3>
+                    <p>$9</p>
+                    <button onclick="getUserInput()">Buy</button>
+                  </div>
+                  <div class="pricing-item">
+                    <img src="img6.jpg" alt="Cat Food 3">
+                    <h3>Cat Food 3</h3>
+                    <p>$11</p>
+                    <button onclick="getUserInput()">Buy</button>
+                  </div>
+                </div>
+              </div>
+              
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <button onclick="getUserInput()">Buy</button>
+
+<script>
+  function getUserInput() {
+    var name = prompt("Please enter your name:");
+    var email = prompt("Please enter your email:");
+    alert("Data saved")
+    window.location.href = "index.html";
+  }
+</script>
+
+</body>
+</html>
